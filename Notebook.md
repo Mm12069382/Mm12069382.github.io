@@ -201,6 +201,8 @@ Collapsible = Hide/Show detail
 
 Keep it simple, consistent, and clear.
 
+## Day 2
+
 ### Key Terms and Definitions
 
 | Term             | Definition                                      | Example / Notes                          |
