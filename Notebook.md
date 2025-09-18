@@ -207,37 +207,37 @@ Keep it simple, consistent, and clear.
 
 | Term             | Definition                                      | Example / Notes                          |
 |------------------|--------------------------------------------------|-------------------------------------------|
-| Widget           |                                                  |                                           |
-| MaterialApp      |                                                  |                                           |
-| Scaffold         |                                                  |                                           |
-| StatelessWidget  | A widget that never changes (static content)                                                 |                                           |
-| StatefulWidget   |                                                  |                                           |
-| Navigator        |                                                  |                                           |
-| AppBar           |                                                  |                                           |
-| Column           |                                                  |                                           |
-| Row              |                                                  |                                           |
-| Container        |                                                  |                                           |
-| Text             |                                                  |                                           |
-| Image.network    |                                                  |                                           |
+| Widget           | Basic building block of a Flutter app. Everything is a widget.                                                 | Text, Image, Container, Column                                          |
+| MaterialApp      | The root of the app. Sets up routes and themes.                                                 | Theme and background                                          |
+| Scaffold         | Provides basic visual layout — like a header, body, floating button                                                 |Each screen uses it                                           |
+| StatelessWidget  | A widget that doesn’t change                                                 | Most of the screen files                                           |
+| StatefulWidget   | A widget that can change over time                                                 |Used in MyHomePage()                                           |
+| Navigator        | Manages screen transitions                                                 | Navigator.pushNamed(context, '/page2');                                           |
+| AppBar           | Top navigation bar                                                 | Title of each page appears here                                          |
+| Column           | Vertical layout                                                 |                                           |
+| Row              | Horizontal layout                                                 |                                           |
+| Container        | Wraps content with padding, margin, or color                                                 |                                           |
+| Text             | Displays text                                                 |                                           |
+| Image.network    | Displays images from a URL                                                 |                                           |
 
 ### Code Definitions
 
 | Term | Definition | Base Structure / Syntax | Real Life Example | App Example |
 |------|------------|--------------------------|-------------------|-------------|
-|Variable      | A named container used to store a value that may change. | `var x = 5;` |  |  |
-|Constant      | A fixed value that cannot change once set. | `const PI = 3.14;` |  |  |
-|Data Type      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |  |  |
-|String      | A sequence of characters used to represent words or text. | `"Hello World"` |  |  |
-|Integer      | Whole number values. | `int age = 16;` |  |  |
-|Double      | Number values with decimals. | `double age = 16.2;` |  |  |
-|Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |  |  |
-|List      | A collection of values in a specific order. | `List<String> names = [];` |  |  |
-|Null      | A special value that means “nothing.” | `String? name = null;` |  |  |
-|Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |  |  |
-|Parameter      | The information passed into a function to change how it works. | `greet(String name)` |  |  |
-|Return      | The result a function gives back. | `return total;` |  |  |
-|Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |  |  |
-|Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |  |  |
+|Variable      | A named container used to store a value that may change. | `var x = 5;` |levels in games  |Any kind of games  |
+|Constant      | A fixed value that cannot change once set. | `const PI = 3.14;` |Deleting apps  |Trash can app on phone  |
+|Data Type      | The kind of value a variable holds, like numbers or text. | `int`, `String`, `bool` |Time on games |Games  |
+|String      | A sequence of characters used to represent words or text. | `"Hello World"` |Title on apps  |Apps  |
+|Integer      | Whole number values. | `int age = 16;` |Calculator  |Calculator App  |
+|Double      | Number values with decimals. | `double age = 16.2;` |Money in games  |Fortnite  |
+|Boolean      | A value that can be true or false. | `bool isLoggedIn = false;` |Questions  |Quizlet |
+|List      | A collection of values in a specific order. | `List<String> names = [];` |List  |Note app  |
+|Null      | A special value that means “nothing.” | `String? name = null;` |App names  | Apps |
+|Function      | A reusable block of code that performs an action. | `void sayHi() { print("Hi"); }` |Jump button  |Games  |
+|Parameter      | The information passed into a function to change how it works. | `greet(String name)` | Walking to running in games | Games |
+|Return      | The result a function gives back. | `return total;` |How much you make in a game  |Money making game |
+|Scope      | Where a variable or function can be used. | (No set syntax — concept-based) |Chats  | Imessage |
+|Class      | Blueprint for creating objects with specific structure and behavior. | `class Dog {}` |Instructions| Rules in games |
 |Object      | A specific version of a class. | `Dog myDog = Dog();` |  |  |
 |Property      | A variable that belongs to a class/object. | `String name;` |  |  |
 |Method      | A function that belongs to a class. | `void bark() {}` |  |  |
