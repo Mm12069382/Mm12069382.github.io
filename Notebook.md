@@ -274,3 +274,23 @@ Keep it simple, consistent, and clear.
 |      | A variable that helps the widget know where it is and lets it communicate with the app. | `BuildContext context` |  |  |
 |      | A keyword used to pass a value to the parent widget. | `super.key` |  |  |
 |      | A keyword that means the value won't change and is set once. | `const` |  |  |
+
+|input nextLine |reads in a String from the user|input.nextLine();| | |
+|input nextInt |reads in an int from the user |input.nextInt(); | | |
+|input nextDouble |reads in a double (decimal) from the user |input.nextDouble(); | | |
+|input nextBoolean |reads in a boolean (true/false) from the user |input.nextBoolean(); | | |
+|Arithmetic operators |- * / % (modulus,returns the remainder from dividing) | | | |
+|Compund operators ( applies the result to the varible) |+= -= *- /= %= ++ (adds 1) | | | |
+|Maximum int |The max value an int can hold: 2147483647 |Integer.MAX_VALUE | | |
+|Minimum int |The minimum value an int can hold: -2147483648  |Integer.MIN_VALUE | | |
+|Integer OverFlow |Integer.MAX_VALUE + 1 == MIN_VALUE, it wraps around | | | |
+|Integer UnderFlow |Integer.MIN_VALUE + 1 == MAX_VALUE, it wraps around  | | | |
+|round-off error |an approx. of the actual value, result is rounded to the nearest value that fits within the available bits | | | |
+|Overloaded method/function or constructor |Uses the same name, but has different parameters | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+
+
+
+
